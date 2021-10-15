@@ -1,0 +1,192 @@
+body{
+  margin: 0px;
+}
+
+.fondo_completo{
+  background-color: #D9CDE3;
+  height: 974px;
+  width: 100%;
+}
+
+.fondo_completo .envoltura_postal {
+  padding: 100px 99px;
+  display: flex;
+  justify-content: center;
+}
+
+.fondo_completo .envoltura_postal img {
+      box-shadow: 0px 0px 0px 20px #ffff;
+}
+
+.fondo_completo .envoltura_postal .formulario_nombre {
+  position: absolute;
+  padding-top: 91px;
+  padding-left: 152px;
+}
+
+.fondo_completo .envoltura_postal .formulario_nombre .espacio_nombre {
+  padding-top: 10px;
+  padding-right: 93px;
+}
+
+.fondo_completo .envoltura_postal .formulario_apellido {
+  position: absolute;
+  padding-top: 91px;
+  padding-left: 1112px;
+}
+
+.fondo_completo .envoltura_postal .formulario_apellido .espacio_apellido {
+  padding-top: 10px;
+  padding-right: 93px;
+}
+
+.fondo_completo .envoltura_postal .formulario_cumple {
+  position: absolute;
+  padding-top: 187px;
+  padding-left: 159px;
+}
+
+.fondo_completo .envoltura_postal .formulario_cumple .espacio_cumple {
+  padding-top: 10px;
+  padding-right: 93px;
+}
+
+.fondo_completo .envoltura_postal .formulario_correo {
+  position: absolute;
+  padding-top: 187px;
+  padding-left: 1112px;
+}
+
+.fondo_completo .envoltura_postal .formulario_correo .espacio_correo {
+  padding-top: 10px;
+  padding-right: 93px;
+}
+
+.fondo_completo .envoltura_postal .texto {
+  width: 944px;
+  height: 776px;
+  position: absolute;
+  margin-left: 778px;
+
+}
+
+.fondo_completo .envoltura_postal .texto .nombre {
+  position: absolute;
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 32px;
+  font-family: 'Krona One', sans-serif;
+
+}
+
+.fondo_completo .envoltura_postal .texto .apellido {
+  position: absolute;
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 506px;
+  font-family: 'Krona One', sans-serif;
+
+}
+
+.fondo_completo .envoltura_postal .texto .cumple {
+  position: absolute;
+  margin: 0;
+  padding-top: 155px;
+  padding-left: 32px;
+  font-family: 'Krona One', sans-serif;
+
+}
+
+.fondo_completo .envoltura_postal .texto .correo {
+  position: absolute;
+  margin: 0;
+  padding-top: 155px;
+  padding-left: 506px;
+  font-family: 'Krona One', sans-serif;
+
+}
+
+.fondo_completo .envoltura_postal .texto .mensaje {
+  position: absolute;
+  margin: 0;
+  padding-top: 263px;
+  padding-left: 32px;
+  font-family: 'Krona One', sans-serif;
+}
+
+.fondo_completo .envoltura_postal .texto .leido {
+  position: absolute;
+  margin: 0;
+  padding-top: 550px;
+  padding-left: 72px;
+  font-family: 'Krona One', sans-serif;
+
+}
+
+.fondo_completo .envoltura_postal .texto .datos {
+  position: absolute;
+  margin: 0;
+  padding-top: 601px;
+  padding-left: 72px;
+  font-family: 'Krona One', sans-serif;
+
+}
+
+.fondo_completo .envoltura_postal .texto .enviar {
+  position: absolute;
+  margin: 0;
+  margin-top: 690px;
+  margin-left: 303px;
+  font-family: 'Rock Salt', cursive;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16pt;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 10px 136px;
+  box-shadow: 0px 0px 0px 4px #DFDFDD;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.topnav a {
+  float: right;
+  color: #A6A6A6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #B6DDD5;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #B6DDD5;
+  color: white;
+}
+.logo {float: left !important;
+	}
+
+.logo:hover{
+	background-color: transparent !important;
+}
+
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 180px;
+	background-color: #F6DD69;
+	font-size: 12px;
+   color: 858585;
+	box-sizing: inherit;
+	padding-top: 35px;
+   text-align: center;
+}
